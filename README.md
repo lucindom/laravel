@@ -22,4 +22,6 @@ echo "scp <cliente>@ip.ip.ip.52:/home/<cliente>/<cliente>_prd_$d.zip /c/lm/black
    3. Ejecutar Comando de Respaldo
         - se ejecuta con . resp.sh
         - Luego, En Windows, con Git Bash:
-            `scp <cliente>@ip.ip.ip.52:/home/<cliente>/<cliente>_prd_$d.zip /c/directorio/<cliente>/resp/<cliente>_prd_$d.zip`
+        ```
+            `scp <cliente>@ip.ip.ip.52:/home/<cliente>/<cliente>_prd_$d.zip /c/directorio/<cliente>/resp/<cliente>_prd_$d.zip
+        ```
