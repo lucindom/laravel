@@ -1,7 +1,8 @@
 # PINS PARA LARAVEL
 ## Comandos desde ssh para Respaldo y Otros
 ### Respaldo de Mysql completo
-    - `root@server:~# vi resp.sh
+```
+root@server:~# vi resp.sh
 d=´date +%Y_%m_%d_%H_%M´
 mysqldump -u qubits_root <cliente> > /home/<cliente>/<cliente>_prd_$d.sql
 
@@ -16,3 +17,4 @@ se ejecuta con . resp.sh
 Luego, En Windows, con Git Bash:
 scp <cliente>@ip.ip.ip.52:/home/<cliente>/<cliente>_prd_$d.zip /c/lm/blackmind/proy/<cliente>/resp/<cliente>_prd_$d.zip
     `
+```
